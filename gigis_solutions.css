@@ -90,4 +90,23 @@
   }
 }
 /* Esercizio 11 */
+.ex-11-icon:hover{
+  animation-name: spin_circle_11;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+}
+@keyframes spin_circle_11 {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(270deg);
+  }
+}
 /* Esercizio 12 */
