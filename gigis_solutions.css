@@ -65,5 +65,29 @@
   transform: scale(1.5);
 }
 /* Esercizio 10 */
+.ex-10-icon{
+  animation-name: spin_circle;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+}
+@keyframes spin_circle {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 /* Esercizio 11 */
 /* Esercizio 12 */
