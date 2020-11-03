@@ -40,8 +40,13 @@
 .ex-6-img:hover{
   filter: grayscale(100%);
 }
-
 /* Esercizio 7 */
+.ex-7-img{
+  transition: filter 3s;
+}
+.ex-7-img:hover{
+  filter: sepia(50%);
+}
 /* Esercizio 8 */
 /* Esercizio 9 */
 /* Esercizio 10 */
