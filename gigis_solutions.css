@@ -37,6 +37,10 @@
   transform: scale(0.5);
 }
 /* Esercizio 6 */
+.ex-6-img:hover{
+  filter: grayscale(100%);
+}
+
 /* Esercizio 7 */
 /* Esercizio 8 */
 /* Esercizio 9 */
