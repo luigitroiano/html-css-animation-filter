@@ -27,6 +27,15 @@
   opacity: 0;
 }
 /* Esercizio 5 */
+.ex-5-square{
+  transition: transform 1s;
+}
+.ex-5-square:hover{
+  transform: scale(2);
+}
+.ex-5-square:active{
+  transform: scale(0.5);
+}
 /* Esercizio 6 */
 /* Esercizio 7 */
 /* Esercizio 8 */
